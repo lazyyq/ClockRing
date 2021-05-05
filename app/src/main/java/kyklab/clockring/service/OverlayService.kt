@@ -213,7 +213,7 @@ class OverlayService : Service(), SharedPreferences.OnSharedPreferenceChangeList
     }
 
     companion object {
-        private const val DEFAULT_ANGLE = 45f
+        private const val DEFAULT_ANGLE = 0f
 
         fun startService(context: Context) {
             val intent = Intent(context, OverlayService::class.java)
